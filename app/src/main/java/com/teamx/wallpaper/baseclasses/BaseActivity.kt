@@ -42,36 +42,7 @@ abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel> : AppCompatA
         super.onCreate(savedInstanceState)
         databindingWithViewModel()
 
-//        checkAndAskLocationPermission()
-
     }
-
-    public fun checkAndAskLocationPermission() {
-        if (EasyPermissions.hasPermissions(
-                this,
-                Manifest.permission.ACCESS_FINE_LOCATION,
-                Manifest.permission.ACCESS_COARSE_LOCATION,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE
-            )
-        ) {
-            /// Already have permission, do the thing
-            allowPermissionListener?.onPermissionAllow(true)
-        } else {
-            EasyPermissions.requestPermissions(
-                this,
-                "We need to access",
-                SOME_PERMISSION,
-                Manifest.permission.ACCESS_FINE_LOCATION,
-                Manifest.permission.ACCESS_COARSE_LOCATION,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE
-            )
-        }
-    }
-
-    override fun attachBaseContext(newBase: Context?) {
-        super.attachBaseContext(MainApplication.localeManager!!.setLocale(newBase!!))
-    }
-
 
     /**
      * Function to perform databinding and attaching viewmodel with view

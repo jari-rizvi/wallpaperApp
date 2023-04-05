@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_navigation_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/tempFragment">
 
-<!--    <fragment-->
-<!--        android:id="@+id/tempFragment"-->
-<!--        android:name="com.teamx.wallpaper.ui.fragments.temp.TempFragment"-->
-<!--        android:label="TempFragment"-->
-<!--        tools:layout="@layout/fragment_temp" />-->
+    <fragment
+        android:id="@+id/tempFragment"
+        android:name="com.teamx.wallpaper.ui.fragments.temp.TempFragment"
+        android:label="TempFragment"
+        tools:layout="@layout/fragment_temp" />
+    <fragment
+        android:id="@+id/wallpaperListFragment"
+        android:name="com.teamx.wallpaper.ui.fragments.wallpaperlist.WallpaperListFragment"
+        android:label="WallpaperListFragment" />
 
 
 </navigation>

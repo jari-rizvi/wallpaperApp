@@ -21,11 +21,9 @@ import com.teamx.wallpaper.SharedViewModel
 import com.teamx.wallpaper.data.local.datastore.DataStoreProvider
 import com.teamx.wallpaper.ui.activity.mainActivity.MainActivity
 import com.teamx.wallpaper.utils.DialogHelperClass
-import com.teamx.wallpaper.utils.UnAuthorizedCallback
 
 
-abstract class BaseFragment<T : ViewDataBinding, V : BaseViewModel> : Fragment(),
-    UnAuthorizedCallback {
+abstract class BaseFragment<T : ViewDataBinding, V : BaseViewModel> : Fragment() {
 
     lateinit var sharedViewModel: SharedViewModel
     lateinit var navController: NavController

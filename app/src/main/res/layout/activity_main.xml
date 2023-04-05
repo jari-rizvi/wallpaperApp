@@ -26,29 +26,6 @@
             app:defaultNavHost="true"
             app:navGraph="@navigation/main_navigation_graph" />
 
-        <!--        <androidx.fragment.app.FragmentContainerView-->
-        <!--            android:id="@+id/nav_host_fragment"-->
-        <!--            android:name="androidx.navigation.fragment.NavHostFragment"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            app:defaultNavHost="true"-->
-        <!--            app:navGraph="@navigation/main_navigation_graph" />-->
-
-        <!--        <androidx.coordinatorlayout.widget.CoordinatorLayout-->
-        <!--            android:id="@+id/coordinator"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="match_parent">-->
-
-        <!--            <com.google.android.material.bottomnavigation.BottomNavigationView-->
-        <!--                android:id="@+id/bottomappbar"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_gravity="bottom">-->
-
-
-        <!--            </com.google.android.material.bottomnavigation.BottomNavigationView>-->
-
-        <!--        </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
 
         <ProgressBar
             android:id="@+id/progress_bar"

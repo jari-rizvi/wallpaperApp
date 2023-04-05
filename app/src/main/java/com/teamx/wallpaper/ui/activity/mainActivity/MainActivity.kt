@@ -1,7 +1,6 @@
 package com.teamx.wallpaper.ui.activity.mainActivity
 
 
-import android.content.Context
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.util.Log
@@ -10,7 +9,6 @@ import android.widget.ProgressBar
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import com.teamx.wallpaper.BR
-import com.teamx.wallpaper.MainApplication
 import com.teamx.wallpaper.R
 import com.teamx.wallpaper.baseclasses.BaseActivity
 import com.teamx.wallpaper.databinding.ActivityMainBinding
@@ -67,24 +65,11 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
 
     override fun onPause() {
         super.onPause()
-        val navState = navController!!.saveState()!!
-        mViewModel.bundleB.postValue(navState)
-//        val prefs = getPreferences(Context.MODE_PRIVATE)
-//        prefs.edit().putString("navState", navState!!).apply()
-        Log.d("321321", "onPause:$navState ")
     }
 
     override fun onResume() {
         super.onResume()
-//        val prefs = getPreferences(Context.MODE_PRIVATE)
-//        val navState = prefs.getString("navState", null)
-        val navState = mViewModel.bundleB.value
-        navState!!.let {
-            navController!!.restoreState(it)
-//            navController!!.navigate(navController!!.currentDestination!!.id, null)
-//        navController?.popBackStack()
-        }
-        Log.d("321321", "onResume:$navState ")
+
     }
 
     override fun onStop() {
@@ -133,12 +118,6 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         super.onBackPressed()
 
     }
-
-    override fun attachBaseContext(newBase: Context?) =
-        super.attachBaseContext(MainApplication.localeManager!!.setLocale(newBase!!))
-
-
-
 
 
     companion object {

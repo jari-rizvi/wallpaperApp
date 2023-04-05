@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/card_background_border"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/card_background"
+            android:clipToOutline="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/dummy_img"
+            app:layout_constraintBottom_toBottomOf="@+id/layout1"
+            app:layout_constraintEnd_toEndOf="@+id/layout1"
+            app:layout_constraintStart_toStartOf="@+id/layout1"
+            app:layout_constraintTop_toTopOf="@+id/layout1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
