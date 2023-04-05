@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name" translatable="false">Zeus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="search_artist">Search artist</string>
+
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="oops_something_went_wrong">Oops something went wrong!</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="no">no</string>
+    <string name="guest_login">Guest Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="or_sign_up_with">Or Sign Up with</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="copy_code">Copy code</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="register">Register</string>
+    <string name="new_user">New User</string>
+    <string name="email_address_phone_number">Email address/ Phone Number</string>
+    <string name="send">Send</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="please_enter_the_otp_sent_to_your_mobile_number">Please enter the OTP sent to your mobile number</string>
+    <string name="verify">Verify</string>
+    <string name="create_a_nnew_password">Create a \nNew Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="done">Done</string>
+    <string name="settings">Settings</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="language">Language</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="faq">FAQ</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="your_order_has_been_placed_successfully">Your Order has been Placed successfully.</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="how_would_you_rate_our_app_n_expirence">How would you rate our App \n Expirence ?</string>
+    <string name="how_would_you_rate_your_order_n_expirence">How would you rate your Order \n Expirence ?</string>
+    <string name="submit">Submit</string>
+    <string name="add_review">Add Review</string>
+    <string name="share_your_feedback">Share Your Feedback</string>
+    <string name="tell_us_what_you_think">Tell us what you think</string>
+    <string name="about_us">About Us</string>
+    <string name="we_will_need_your_location_to_give_you_better_expirence">We will need your location to \n give you better expirence</string>
+    <string name="find_resturants_and_n_shops_near_you">Find Resturants and \n Shops near you!</string>
+    <string name="allow_location">Allow Location</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="find_cool_products_n_fit_your_style">Find Cool Products \nFit Your Style</string>
+    <string name="reviews">Reviews</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="coupons">Coupons</string>
+    <string name="reward">Reward</string>
+    <string name="order_history">Order History</string>
+    <string name="address">Address</string>
+    <string name="support">Support</string>
+    <string name="logout">Logout</string>
+    <string name="email_address">Email address</string>
+    <string name="change">Change</string>
+    <string name="terms_conditions" translatable="false"><![CDATA[Terms & Conditions]]></string>
+    <string name="view_all">View All</string>
+    <string name="paid">Paid</string>
+    <string name="my_wishlist">My Wishlist</string>
+    <string name="my_orders">My Orders</string>
+    <string name="current_orders">Current Orders</string>
+    <string name="past_orders">Past Orders</string>
+    <string name="my_service">My Service</string>
+    <string name="messages">Messages</string>
+    <string name="payment_options">Payment Options</string>
+    <string name="write_a_review">Write a Review</string>
+    <string name="description">Description</string>
+    <string name="similar_services">Similar Services</string>
+    <string name="special_instruction">Special Instruction</string>
+    <string name="points">Points</string>
+    <string name="total">Total</string>
+    <string name="check_out">Check Out</string>
+    <string name="delete">Delete</string>
+    <string name="enter_email">Enter email</string>
+    <string name="password_8_character">Password must have atleast 8 character</string>
+    <string name="enter_name">Enter name</string>
+    <string name="name_must_have_atleast_3_character_long">Name must have atleast 3 character long</string>
+    <string name="name_maximum">Name should not exceed 15 character</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="enter_Number_with_Country_Code">Enter Number with Country Code (e.g +92)</string>
+    <string name="enter_Password">Enter Password</string>
+    <string name="password_does_not_match">Password does not match</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="popular_stores">Popular Stores</string>
+    <string name="keep_shopping">Keep Shopping</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="find_restaurants_nand_shops_near_you">Find Restaurants \nand Shops near you!</string>
+    <string name="we_will_need_your_location_to_ngive_you_better_experience">We will need your location to \ngive you better experience.</string>
+    <string name="cart">CART</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="order">Order #</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="qty">Qty:</string>
+    <string name="your_location">Your Location</string>
+    <string name="create_password">Create Password</string>
+    <string name="your_new_password_must_be_diffrent_nfrom_previously_used_password">Your new password must be diffrent \nfrom previously used password.</string>
+    <string name="save">Save</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="enter_your_full_name">Enter your Full Name</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="car_plate_number">Car Plate Number</string>
+    <string name="add_car_image">Add Car Image</string>
+    <string name="update">Update</string>
+    <string name="select_which_contact_details_should_we_nuse_to_reset_your_password">Select which contact details should we \nuse to reset your password:</string>
+    <string name="via_email">via email</string>
+    <string name="enter_recovery_ncode">Enter Recovery \nCode</string>
+    <string name="the_recovery_code_was_sent_to_your_mobile_nplease_enter_the_code" translatable="false">The recovery code was sent to your mobile , \nplease enter the code:</string>
+    <string name="places_near_by">Places Near By</string>
+    <string name="search">Search</string>
+    <string name="skip">Skip</string>
+    <string name="enter_your_email_phone_number">Enter your Email / Phone Number</string>
+    <string name="or_signin_with">Or Signin With</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="the_recovery_code_was_sent_to_your_nmobile_number_please_enter_the_code" translatable="false">The recovery code was sent to your \nmobile number,please enter the code:</string>
+    <string name="resend_again">Resend Again?</string>
+    <string name="the_recovery_code_was_sent_to_nyour_mobile_number_please_enter_the_code">The recovery code was sent to \nyour mobile number, please enter the code:</string>
+    <string name="your_password_has_been_nreset_successfully">Your Password has been \nreset successfully</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="already_register">Already Register?</string>
+    <string name="login_now">Login Now</string>
+    <string name="your_order_is_placed_nsuccessfully">Your Order is placed \nSuccessfully</string>
+    <string name="pick_up_location">Pick Up Location</string>
+    <string name="resend" translatable="false">Resend</string>
+
+    <string name="emptyLocationDatabaseMessage" translatable="false">emptyLocationDatabaseMessage</string>
+
+    <string name="stop_receiving_location" translatable="false">stop_receiving_location</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="start_receiving_location" translatable="false">start_receiving_location</string>
+
+    <string name="fine_location_access_rationale_title_text" translatable="false">fine_location_access_rationale_title_text</string>
+
+    <string name="fine_location_access_rationale_details_text" translatable="false">fine_location_access_rationale_details_text</string>
+
+    <string name="enable_fine_location_button_text" translatable="false">enable_fine_location_button_text</string>
+
+    <string name="background_location_access_rationale_title_text" translatable="false">background_location_access_rationale_title_text</string>
+
+    <string name="background_location_access_rationale_details_text" translatable="false">background_location_access_rationale_details_text</string>
+
+    <string name="enable_background_location_button_text" translatable="false">enable_background_location_button_text</string>
+
+
+    <string name="fine_permission_denied_explanation" translatable="false">fine_permission_denied_explanation</string>
+
+    <string name="background_permission_denied_explanation" translatable="false">background_permission_denied_explanation</string>
+
+    <string name="background_location_permission_rationale" translatable="false">background_location_permission_rationale</string>
+
+    <string name="fine_location_permission_rationale" translatable="false">fine_location_permission_rationale</string>
+
+    <string name="you_still_have_products_from_another_shop_shall_we_start_over_will_a_fresh_cart" translatable="false">You still have products from another shop. Shall we start over will a fresh cart?</string>
+    <string name="cards" translatable="false">Cards</string>
+    <string name="addresses" translatable="false">Addresses</string>
+
+    <string name="or_sign_in_with" translatable="false">Or Sign in with</string>
+    <string name="we_are_missing_your_street" translatable="false">We are missing your street</string>
+    <string name="add_address" translatable="false">Add address</string>
+    <string name="discover">Discover</string>
+    <string name="are_you_you_want_to_complete_the_order">Are you want to complete the order ?</string>
+    <string name="confirm">Confirm</string>
+    <string name="are_you_you_want_to_start_the_ride">Are you want to start the ride ?</string>
+    <string name="are_you_sure_you_want_to_end_the_ride">Are you sure you want to end the ride ?</string>
+    <string name="cash">Cash</string>
+    <string name="cod">Cash on Delivery</string>
+    <string name="paypal">paypal</string>
+
+
+    <string name="facebook_app_id">581554763453213</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">de275aecae2d8d4a1b20007a2a10e178</string>
+    <string name="merchant_list">MERCHANT LIST</string>
+    <string name="add_new_merchant">Add New Merchant</string>
+    <string name="top_services">Top Services</string>
+    <string name="search_by_qr_code">Search By QR Code</string>
+    <string name="search_by_name">Search By Name</string>
+    <string name="server_client_id">433833199508-hs6uql4hc79t1vb40e49gq0p5l3vcd1a.apps.googleusercontent.com</string>
+    <string name="are_you_sure_you_want_delete_the_cart_item">Are you sure you want delete the cart item?</string>
+    <string name="pplicy_signup">By signing up, you agree <b>Terms &amp; Conditions</b> and <b>Privacy Policy</b></string>
+    <string name="policy_login"><b>Terms &amp; Conditions</b> and <b>Privacy Policy</b></string>
+    <string name="we_need_to_know_your_location_to_n_find_orders_near_you">We need to know your location to\n find orders near you.</string>
+    <string name="allow">Allow</string>
+    <string name="we_want_to_send_you_notificaitons">We want to send you notificaitons</string>
+    <string name="prominent"><![CDATA[
+        We collect personal information:\n
+        • Such as name, address, phone, email, background location, credit card, and transaction details \n
+        • We use GPS tracking and may share your location with merchants \n
+        • We may send you notifications about our app such as order placement or successful delivery \n
+        • By using our app, you consent to our collection and use of your information \n
+        • Please check our privacy policy for more details on our data collection practices
+    ]]></string>
+    <string name="track">Track</string>
+
+
+</resources>
