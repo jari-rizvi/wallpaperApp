@@ -34,14 +34,4 @@ class MainApplication : Application() {
 
     }
 
-    override fun attachBaseContext(base: Context?) {
-        localeManager = LocaleManager(base!!)
-        super.attachBaseContext(localeManager!!.setLocale(base!!))
-    }
-
-    override fun onConfigurationChanged(newConfig: Configuration) {
-        super.onConfigurationChanged(newConfig!!)
-        localeManager!!.setLocale(this)
-    }
-
 }
