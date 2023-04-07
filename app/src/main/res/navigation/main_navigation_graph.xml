@@ -14,6 +14,14 @@
         android:id="@+id/wallpaperListFragment"
         android:name="com.teamx.wallpaper.ui.fragments.wallpaperlist.WallpaperListFragment"
         android:label="WallpaperListFragment" />
+    <fragment
+        android:id="@+id/previewWallpaperFragment"
+        android:name="com.teamx.wallpaper.ui.fragments.previewWallpaper.PreviewWallpaperFragment"
+        android:label="PreviewWallpaperFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.teamx.wallpaper.ui.fragments.setting.SettingFragment"
+        android:label="SettingFragment" />
 
 
 </navigation>

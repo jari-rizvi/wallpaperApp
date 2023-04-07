@@ -34,4 +34,5 @@
     <color name="normal_gray_color">#343434</color>
     <color name="normal_light_gray_color">#656464</color>
     <color name="bg_color">#002e37</color>
+    <color name="sea_green">#035565</color>
 </resources>

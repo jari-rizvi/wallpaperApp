@@ -6,112 +6,59 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bg_color"
         tools:context=".ui.fragments.temp.TempFragment">
 
-        <ImageButton
-            android:id="@+id/menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:clickable="true"
-            android:focusable="true"
-            android:padding="4dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_menu"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView" />
-
-        <TextView
-            android:id="@+id/categories_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="@dimen/_15sdp"
-            android:layout_marginEnd="16dp"
-            android:includeFontPadding="false"
-            android:text="4K Wallpapers"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/colorPrimary"
-            android:textSize="@dimen/_18ssp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/categories_title"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.85"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/categories_title"
-            app:srcCompat="@drawable/ic_refresh" />
-
-        <ImageView
-            android:id="@+id/btnMenu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.95"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView"
-            app:srcCompat="@drawable/ic_menu" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/layout1"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_70sdp"
-            android:layout_marginHorizontal="@dimen/_15sdp"
-            android:background="@drawable/card_background_border"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/categories_title"
-            app:layout_constraintVertical_bias="0.08" />
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/main_border"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SET 'AUTO WALLPAPER CHANGER'"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.03"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_editor_absoluteX="19dp"
+                tools:listitem="@layout/item_wallpaper_list" />
 
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_margin="@dimen/_3sdp"
-            android:background="@drawable/card_background"
-            android:clipToOutline="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/text_bg"
-            app:layout_constraintBottom_toBottomOf="@+id/layout1"
-            app:layout_constraintEnd_toEndOf="@+id/layout1"
-            app:layout_constraintStart_toStartOf="@+id/layout1"
-            app:layout_constraintTop_toTopOf="@+id/layout1" />
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_50sdp"-->
+<!--                android:background="@drawable/add_background"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Add"-->
+<!--                android:textSize="@dimen/_14ssp"-->
+<!--                app:layout_constraintVertical_bias="0.9"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/recycler_list"-->
+<!--                app:layout_constraintEnd_toEndOf="@id/recycler_list"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/recycler_list"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/recycler_list" />-->
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:gravity="center"
-            android:text="SET 'AUTO WALLPAPER CHANGER'"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toBottomOf="@+id/layout1"
-            app:layout_constraintEnd_toEndOf="@+id/layout1"
-            app:layout_constraintStart_toStartOf="@+id/layout1"
-            app:layout_constraintTop_toTopOf="@+id/layout1" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_15sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout1"
-            app:layout_constraintVertical_bias="0.0"
-            tools:listitem="@layout/item_wallpaper_list" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

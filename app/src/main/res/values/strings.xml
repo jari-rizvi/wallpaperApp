@@ -208,6 +208,11 @@
         • Please check our privacy policy for more details on our data collection practices
     ]]></string>
     <string name="track">Track</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="auto_wallpaper_changer">Auto Wallpaper Changer</string>
+    <string name="change_after_24_hours">Change After 24 hours</string>
+    <string name="change_after_6_hours">Change After 6 hours</string>
+    <string name="change_after_12_hours">Change After 12 hours</string>
 
 
 </resources>

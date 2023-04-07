@@ -7,8 +7,13 @@ import com.teamx.wallpaper.databinding.ItemWallpaperListBinding
 import com.teamx.wallpaper.dummyData.WallpaperListData
 
 class WallpaperAdapter(
-    val orderArrayList: ArrayList<WallpaperListData>
+    val orderArrayList: ArrayList<WallpaperListData>,var callback: CallBack
 ) : RecyclerView.Adapter<FaqViewHolder>() {
+
+    interface CallBack{
+        fun onItemClickFavourite(i: Int)
+
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FaqViewHolder {
         return FaqViewHolder(
@@ -26,6 +31,7 @@ class WallpaperAdapter(
         holder.bind.imageView3.setImageResource(imgList.Img)
 
         holder.itemView.setOnClickListener {
+         callback.onItemClickFavourite(position)
 
         }
 

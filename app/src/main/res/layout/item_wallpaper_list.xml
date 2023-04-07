@@ -9,8 +9,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout1"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_120sdp"
-        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_8sdp"
         android:background="@drawable/card_background_border"
         >
 

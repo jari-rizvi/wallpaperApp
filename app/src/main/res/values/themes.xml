@@ -22,5 +22,9 @@
         <item name="android:editTextColor">@color/blue</item>
     </style>
 
+    <style name="myNavigationView" parent="Base.Theme.AppCompat">
+        <item name="android:listDivider">@color/bg_color</item>
+    </style>
+
 </resources>
 
